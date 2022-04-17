@@ -1,8 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
-import { engine } from 'express-handlebars';
-
+import { engine } from './App.svelte';
 
 import apiRouter from '../backend/api.js';
 import mainRouter from '../frontend/routes/main.js';
